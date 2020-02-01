@@ -1,0 +1,11 @@
+C:\UCSD\csharptwo\Lab2\obj\Debug\netcoreapp3.1\Lab2.csprojAssemblyReference.cache
+C:\UCSD\csharptwo\Lab2\obj\Debug\netcoreapp3.1\Lab2.AssemblyInfoInputs.cache
+C:\UCSD\csharptwo\Lab2\obj\Debug\netcoreapp3.1\Lab2.AssemblyInfo.cs
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.exe
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.deps.json
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.runtimeconfig.json
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.runtimeconfig.dev.json
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.dll
+C:\UCSD\csharptwo\Lab2\bin\Debug\netcoreapp3.1\Lab2.pdb
+C:\UCSD\csharptwo\Lab2\obj\Debug\netcoreapp3.1\Lab2.dll
+C:\UCSD\csharptwo\Lab2\obj\Debug\netcoreapp3.1\Lab2.pdb
