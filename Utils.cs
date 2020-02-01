@@ -29,19 +29,19 @@ namespace Lab2
             double maxY = 0;
             foreach (Point p in points)
             {
-                if (Math.Abs(p.X) < Math.Abs(minX))
+                if (p.X < minX)
                 {
                     minX = p.X;
                 }
-                if (Math.Abs(p.Y) < Math.Abs(minY))
+                if (p.Y < minY)
                 {
                     minY = p.Y;
                 }
-                if (Math.Abs(p.X) > Math.Abs(minX))
+                if (p.X > minX)
                 {
                     maxX = p.X;
                 }
-                if (Math.Abs(p.Y) > Math.Abs(minY))
+                if (p.Y > minY)
                 {
                     maxY = p.Y;
                 }

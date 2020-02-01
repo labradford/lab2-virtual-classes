@@ -17,7 +17,7 @@ namespace Lab2
 
         public double Distance(Point other)
         {
-            return Math.Sqrt(Math.Pow(other.X - X, 2) + Math.Pow(other.Y - Y, 2));
+            return Math.Sqrt(Math.Pow(X - other.X, 2) + Math.Pow(Y - other.Y, 2));
         }
 
         public override string ToString()
