@@ -53,14 +53,14 @@ namespace Lab2
 
         public Rectangle(Point v1, Point v2)
         {
-            List<Point> Points = new List<Point>
-            {
-                v1,
-                new Point(v2.X, v1.Y),
-                v2,
-                new Point(v1.X, v2.Y)
-            };
-            Vertices = Points; 
+            List<Point> Points = new List<Point> {v1, v2 };
+            //{
+            //    v1,
+            //    new Point(v2.X, v1.Y),
+            //    v2,
+            //    new Point(v1.X, v2.Y)
+            //};
+            Vertices = Normalize(Points);
 
         }
 
