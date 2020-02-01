@@ -37,11 +37,11 @@ namespace Lab2
                 {
                     minY = p.Y;
                 }
-                if (p.X > minX)
+                if (p.X > maxX)
                 {
                     maxX = p.X;
                 }
-                if (p.Y > minY)
+                if (p.Y > maxY)
                 {
                     maxY = p.Y;
                 }
