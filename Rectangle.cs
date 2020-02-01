@@ -49,19 +49,18 @@ namespace Lab2
 
         public Rectangle(List<Point> vertices) : base(vertices)
         {
+            Vertices = vertices;
         }
 
         public Rectangle(Point v1, Point v2)
         {
-            List<Point> Points = new List<Point> {v1, v2 };
-            //{
-            //    v1,
-            //    new Point(v2.X, v1.Y),
-            //    v2,
-            //    new Point(v1.X, v2.Y)
-            //};
-            Vertices = Normalize(Points);
-
+            Vertices = new List<Point>() 
+            { 
+                v1,
+                new Point(v2.X, v1.Y),
+                v2,
+                new Point(v1.X, v2.Y)
+            };
         }
 
         public Rectangle(Point v1, Point v2, Point v3, Point v4)
@@ -79,14 +78,6 @@ namespace Lab2
                 Points.Add(new Point(bounds.Item1, bounds.Item4));
                 Points.Add(new Point(bounds.Item3, bounds.Item4));
                 Points.Add(new Point(bounds.Item3, bounds.Item2));
-                return Points;
-            }
-            else if (input != null && input.Count == 2)
-            {
-                Points.Add(input[0]);
-                Points.Add(new Point(input[1].X, input[0].Y));
-                Points.Add(input[1]);
-                Points.Add(new Point(input[0].X, input[1].Y));
                 return Points;
             }
             else
