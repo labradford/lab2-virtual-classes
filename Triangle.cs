@@ -81,15 +81,15 @@ namespace Lab2
             {
                 return true;
             }
-            else if (Utils.IsRelativelyEqual(a, b) && Utils.IsRelativelyEqual(b, c))
+            else if (Utils.IsRelativelyEqual(a, b))
             {
                 return true;
             }
-            else if (Utils.IsRelativelyEqual(a, b) && Utils.IsRelativelyEqual(c, a))
+            else if (Utils.IsRelativelyEqual(c, a))
             {
                 return true;
             }
-            else if (Utils.IsRelativelyEqual(b, c) && Utils.IsRelativelyEqual(c, a))
+            else if (Utils.IsRelativelyEqual(b, c))
             {
                 return true;
             }

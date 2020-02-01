@@ -8,7 +8,7 @@ namespace Lab2
     {
         public static bool IsRelativelyEqual(double d1, double d2)
         {
-            double margin = Math.Abs((((d1 + d2) / 2) * 0.0001));
+            double margin = Math.Abs(((d1 + d2) / 2) * 0.0001);
             double difference = Math.Abs(d1 - d2);
 
             if (difference < margin)
@@ -23,10 +23,10 @@ namespace Lab2
 
         public static Tuple<double, double, double, double> GetBoundingBox(List<Point> points)
         {
-            double minX = 0;
-            double minY = 0;
-            double maxX = 0;
-            double maxY = 0;
+            double minX = double.MaxValue;
+            double minY = double.MaxValue;
+            double maxX = double.MinValue;
+            double maxY = double.MinValue;
             foreach (Point p in points)
             {
                 if (p.X < minX)
